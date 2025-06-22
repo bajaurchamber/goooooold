@@ -12,8 +12,8 @@ const carpetCollections = [
     price: 'From £55/m²',
     features: ['Stain Resistant', 'Ultra Soft', 'Sound Dampening', 'Easy Care'],
     description: 'Experience ultimate luxury with our premium black staircase carpet featuring elegant border trim and superior comfort.',
-    color: '#8B5CF6',
-    gradient: 'from-purple-500 to-indigo-600'
+    color: '#F59E0B',
+    gradient: 'from-yellow-500 to-amber-600'
   },
   {
     id: 2,
@@ -23,8 +23,8 @@ const carpetCollections = [
     price: 'From £42/m²',
     features: ['Premium Comfort', 'Fade Resistant', 'Durable', 'Premium Quality'],
     description: 'Transform your living spaces with our premium blue-grey carpet offering exceptional comfort and style.',
-    color: '#10B981',
-    gradient: 'from-emerald-500 to-teal-600'
+    color: '#D97706',
+    gradient: 'from-amber-500 to-orange-600'
   },
   {
     id: 3,
@@ -34,8 +34,8 @@ const carpetCollections = [
     price: 'From £48/m²',
     features: ['Bold Design', 'Water Resistant', 'Easy Clean', 'Modern Style'],
     description: 'Stunning geometric vinyl patterns that create bold, contemporary statements in any space.',
-    color: '#F59E0B',
-    gradient: 'from-amber-500 to-orange-600'
+    color: '#FBBF24',
+    gradient: 'from-yellow-400 to-amber-500'
   },
   {
     id: 4,
@@ -45,8 +45,8 @@ const carpetCollections = [
     price: 'From £45/m²',
     features: ['Wood Effect', 'Realistic Grain', 'Durable Finish', 'Easy Install'],
     description: 'Authentic grey wood effect laminate combining the beauty of natural wood with superior durability.',
-    color: '#EF4444',
-    gradient: 'from-red-500 to-pink-600'
+    color: '#F59E0B',
+    gradient: 'from-amber-500 to-yellow-600'
   },
   {
     id: 5,
@@ -56,8 +56,8 @@ const carpetCollections = [
     price: 'From £50/m²',
     features: ['Rich Finish', 'Traditional Look', 'Premium Install', 'Long Lasting'],
     description: 'Rich dark wood effect flooring perfect for traditional living spaces with fireplaces.',
-    color: '#3B82F6',
-    gradient: 'from-blue-500 to-indigo-600'
+    color: '#D97706',
+    gradient: 'from-orange-500 to-amber-600'
   },
   {
     id: 6,
@@ -67,8 +67,8 @@ const carpetCollections = [
     price: 'From £40/m²',
     features: ['Ultimate Comfort', 'Soft Touch', 'Quality Assured', 'Professional'],
     description: 'Premium bedroom carpeting offering ultimate comfort and elegant style for peaceful spaces.',
-    color: '#7C3AED',
-    gradient: 'from-violet-500 to-purple-600'
+    color: '#FBBF24',
+    gradient: 'from-yellow-500 to-orange-600'
   },
   {
     id: 7,
@@ -78,8 +78,8 @@ const carpetCollections = [
     price: 'From £52/m²',
     features: ['Geometric Pattern', 'Water Resistant', 'Easy Maintenance', 'Bold Style'],
     description: 'Bold geometric vinyl patterns perfect for creating stunning focal points in kitchen spaces.',
-    color: '#059669',
-    gradient: 'from-emerald-600 to-green-600'
+    color: '#F59E0B',
+    gradient: 'from-amber-600 to-yellow-600'
   },
   {
     id: 8,
@@ -89,8 +89,8 @@ const carpetCollections = [
     price: 'From £55/m²',
     features: ['Classic Pattern', 'Premium Quality', 'Elegant Design', 'Expert Install'],
     description: 'Elegant herringbone pattern luxury vinyl combining classic design with modern durability.',
-    color: '#DC2626',
-    gradient: 'from-red-600 to-rose-600'
+    color: '#D97706',
+    gradient: 'from-yellow-600 to-amber-600'
   }
 ];
 
@@ -125,7 +125,7 @@ const CarpetShowcase = () => {
             rotate: [0, 180, 360]
           }}
           transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-          className="absolute -top-32 -left-32 w-64 h-64 bg-gradient-to-r from-purple-500/10 to-indigo-500/10 rounded-full blur-3xl"
+          className="absolute -top-32 -left-32 w-64 h-64 bg-gradient-to-r from-yellow-500/10 to-amber-500/10 rounded-full blur-3xl"
         />
         <motion.div
           animate={{
@@ -134,7 +134,7 @@ const CarpetShowcase = () => {
             rotate: [360, 180, 0]
           }}
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-          className="absolute -bottom-32 -right-32 w-80 h-80 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl"
+          className="absolute -bottom-32 -right-32 w-80 h-80 bg-gradient-to-r from-amber-500/10 to-yellow-500/10 rounded-full blur-3xl"
         />
         
         {/* Dynamic background based on current carpet */}
@@ -161,16 +161,16 @@ const CarpetShowcase = () => {
           viewport={{ once: true }}
         >
           <motion.div
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 backdrop-blur-xl border border-purple-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 backdrop-blur-xl border border-yellow-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8"
             whileHover={{ scale: 1.02 }}
           >
-            <Palette className="w-4 h-4 sm:w-5 sm:h-5 text-purple-400" />
+            <Palette className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" />
             <span className="text-white/90 font-semibold text-sm sm:text-base">Flooring Collections</span>
             <Star className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" fill="currentColor" />
           </motion.div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-            Premium <span className="bg-gradient-to-r from-purple-400 to-indigo-600 bg-clip-text text-transparent">Flooring Collections</span>
+            Premium <span className="bg-gradient-to-r from-yellow-400 to-amber-600 bg-clip-text text-transparent">Flooring Collections</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
             Explore our curated range of 8 premium flooring solutions, each designed to bring luxury and comfort to your home
@@ -369,7 +369,7 @@ const CarpetShowcase = () => {
                       
                       <motion.button
                         onClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })}
-                        className="flex-1 border-2 border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:border-purple-400 hover:bg-purple-500/10 transition-all backdrop-blur-xl flex items-center justify-center space-x-2"
+                        className="flex-1 border-2 border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:border-yellow-400 hover:bg-yellow-500/10 transition-all backdrop-blur-xl flex items-center justify-center space-x-2"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.98 }}
                       >
@@ -441,11 +441,11 @@ const CarpetShowcase = () => {
         >
           <motion.a
             href="http://wa.me/+447949087460?text=I'd like to explore your complete flooring collection of 8 premium options"
-            className="group inline-flex items-center space-x-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold text-lg sm:text-xl shadow-2xl hover:shadow-purple-500/25 transition-all relative overflow-hidden"
+            className="group inline-flex items-center space-x-3 bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold text-lg sm:text-xl shadow-2xl hover:shadow-yellow-500/25 transition-all relative overflow-hidden"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <Home className="w-5 h-5 sm:w-6 sm:h-6 relative z-10" />
             <span className="relative z-10">Explore All 8 Collections</span>
             <motion.div
@@ -470,9 +470,9 @@ const CarpetShowcase = () => {
           repeat: Infinity, 
           ease: "easeInOut" 
         }}
-        className="absolute top-20 right-8 w-16 h-16 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-2xl backdrop-blur-xl border border-purple-500/30 flex items-center justify-center shadow-2xl hidden lg:flex"
+        className="absolute top-20 right-8 w-16 h-16 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 rounded-2xl backdrop-blur-xl border border-yellow-500/30 flex items-center justify-center shadow-2xl hidden lg:flex"
       >
-        <Palette className="w-8 h-8 text-purple-400" />
+        <Palette className="w-8 h-8 text-yellow-400" />
       </motion.div>
       
       <motion.div
@@ -487,9 +487,9 @@ const CarpetShowcase = () => {
           ease: "easeInOut",
           delay: 3
         }}
-        className="absolute bottom-32 left-8 w-12 h-12 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-xl backdrop-blur-xl border border-indigo-500/30 flex items-center justify-center shadow-2xl hidden lg:flex"
+        className="absolute bottom-32 left-8 w-12 h-12 bg-gradient-to-br from-amber-500/20 to-yellow-500/20 rounded-xl backdrop-blur-xl border border-amber-500/30 flex items-center justify-center shadow-2xl hidden lg:flex"
       >
-        <Award className="w-6 h-6 text-indigo-400" />
+        <Award className="w-6 h-6 text-amber-400" />
       </motion.div>
     </section>
   );

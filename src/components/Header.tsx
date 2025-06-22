@@ -41,35 +41,35 @@ const Header = () => {
       label: 'Home', 
       icon: Home, 
       description: 'Welcome & Overview',
-      color: 'from-purple-500 to-indigo-600'
+      color: 'from-yellow-500 to-amber-600'
     },
     { 
       id: 'services', 
       label: 'Services', 
       icon: Briefcase, 
       description: 'Our Expertise',
-      color: 'from-indigo-500 to-purple-600'
+      color: 'from-amber-500 to-yellow-600'
     },
     { 
       id: 'gallery', 
       label: 'Gallery', 
       icon: Camera, 
       description: 'Project Portfolio',
-      color: 'from-purple-500 to-pink-600'
+      color: 'from-yellow-500 to-orange-600'
     },
     { 
       id: 'reviews', 
       label: 'Reviews', 
       icon: Star, 
       description: 'Customer Feedback',
-      color: 'from-pink-500 to-purple-600'
+      color: 'from-orange-500 to-yellow-600'
     },
     { 
       id: 'contact', 
       label: 'Contact', 
       icon: MessageCircle, 
       description: 'Get In Touch',
-      color: 'from-purple-600 to-indigo-500'
+      color: 'from-yellow-600 to-amber-500'
     }
   ];
 
@@ -89,8 +89,8 @@ const Header = () => {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-indigo-600 rounded-lg flex items-center justify-center shadow-lg">
-                <div className="w-6 h-6 bg-gradient-to-br from-purple-800 to-indigo-900 rounded"></div>
+              <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-lg flex items-center justify-center shadow-lg">
+                <div className="w-6 h-6 bg-gradient-to-br from-yellow-800 to-amber-900 rounded"></div>
               </div>
               <span className="text-white font-bold text-lg">SYN Carpets</span>
             </motion.div>
@@ -106,7 +106,7 @@ const Header = () => {
                   transition={{ duration: 0.2 }}
                 >
                   {item.label}
-                  <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 group-hover:w-full transition-all duration-300"></div>
+                  <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-yellow-500 to-amber-600 group-hover:w-full transition-all duration-300"></div>
                 </motion.button>
               ))}
             </nav>
@@ -182,7 +182,7 @@ const Header = () => {
                 damping: 30,
                 opacity: { duration: 0.2 }
               }}
-              className="fixed top-0 right-0 h-full w-80 max-w-[90vw] bg-gradient-to-br from-gray-900/95 via-black/95 to-purple-900/95 backdrop-blur-2xl border-l border-white/10 shadow-2xl z-[60] overflow-hidden"
+              className="fixed top-0 right-0 h-full w-80 max-w-[90vw] bg-gradient-to-br from-gray-900/95 via-black/95 to-yellow-900/95 backdrop-blur-2xl border-l border-white/10 shadow-2xl z-[60] overflow-hidden"
             >
               {/* Animated Background Elements */}
               <div className="absolute inset-0 overflow-hidden">
@@ -193,7 +193,7 @@ const Header = () => {
                     opacity: [0.1, 0.2, 0.1]
                   }}
                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                  className="absolute -top-20 -right-20 w-40 h-40 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 rounded-full blur-xl"
+                  className="absolute -top-20 -right-20 w-40 h-40 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 rounded-full blur-xl"
                 />
                 <motion.div
                   animate={{ 
@@ -202,7 +202,7 @@ const Header = () => {
                     opacity: [0.15, 0.05, 0.15]
                   }}
                   transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-                  className="absolute -bottom-16 -left-16 w-32 h-32 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-full blur-xl"
+                  className="absolute -bottom-16 -left-16 w-32 h-32 bg-gradient-to-r from-amber-500/20 to-yellow-500/20 rounded-full blur-xl"
                 />
               </div>
 
@@ -215,12 +215,12 @@ const Header = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.1 }}
                   >
-                    <div className="w-10 h-10 bg-gradient-to-br from-purple-400 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
-                      <div className="w-6 h-6 bg-gradient-to-br from-purple-800 to-indigo-900 rounded-lg"></div>
+                    <div className="w-10 h-10 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
+                      <div className="w-6 h-6 bg-gradient-to-br from-yellow-800 to-amber-900 rounded-lg"></div>
                     </div>
                     <div>
                       <h3 className="text-white font-bold text-lg">SYN Carpets</h3>
-                      <p className="text-purple-300 text-sm">Luxury Redefined</p>
+                      <p className="text-yellow-300 text-sm">Luxury Redefined</p>
                     </div>
                   </motion.div>
                   
@@ -245,11 +245,11 @@ const Header = () => {
                   transition={{ delay: 0.3 }}
                 >
                   <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-2 text-center">
-                    <Award className="w-4 h-4 text-purple-400 mx-auto mb-1" />
+                    <Award className="w-4 h-4 text-yellow-400 mx-auto mb-1" />
                     <p className="text-white text-xs font-semibold">16+ Years</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-2 text-center">
-                    <MapPin className="w-4 h-4 text-indigo-400 mx-auto mb-1" />
+                    <MapPin className="w-4 h-4 text-amber-400 mx-auto mb-1" />
                     <p className="text-white text-xs font-semibold">100 Miles</p>
                   </div>
                   <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-2 text-center">
@@ -287,7 +287,7 @@ const Header = () => {
                             <item.icon className="w-5 h-5 text-white" />
                           </div>
                           <div>
-                            <h4 className="text-white font-semibold text-base group-hover:text-purple-300 transition-colors">
+                            <h4 className="text-white font-semibold text-base group-hover:text-yellow-300 transition-colors">
                               {item.label}
                             </h4>
                             <p className="text-white/60 text-sm group-hover:text-white/80 transition-colors">
@@ -305,7 +305,7 @@ const Header = () => {
                       </div>
 
                       {/* Animated Border */}
-                      <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 group-hover:w-full transition-all duration-500" />
+                      <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-yellow-500 to-amber-600 group-hover:w-full transition-all duration-500" />
                     </motion.button>
                   ))}
                 </motion.div>
@@ -321,8 +321,8 @@ const Header = () => {
                   {/* Contact Info */}
                   <div className="mb-4 space-y-3">
                     <div className="flex items-center space-x-3 text-white/80">
-                      <div className="w-8 h-8 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 rounded-lg flex items-center justify-center">
-                        <MapPin className="w-4 h-4 text-purple-400" />
+                      <div className="w-8 h-8 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 rounded-lg flex items-center justify-center">
+                        <MapPin className="w-4 h-4 text-yellow-400" />
                       </div>
                       <div>
                         <p className="text-sm font-medium">Birmingham & West Midlands</p>
@@ -331,8 +331,8 @@ const Header = () => {
                     </div>
                     
                     <div className="flex items-center space-x-3 text-white/80">
-                      <div className="w-8 h-8 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-lg flex items-center justify-center">
-                        <Clock className="w-4 h-4 text-indigo-400" />
+                      <div className="w-8 h-8 bg-gradient-to-r from-amber-500/20 to-yellow-500/20 rounded-lg flex items-center justify-center">
+                        <Clock className="w-4 h-4 text-amber-400" />
                       </div>
                       <div>
                         <p className="text-sm font-medium">9 AM - 6 PM</p>
@@ -367,8 +367,8 @@ const Header = () => {
               </div>
 
               {/* Decorative Elements */}
-              <div className="absolute top-1/2 right-4 w-1 h-16 bg-gradient-to-b from-purple-500/30 via-indigo-500/30 to-purple-500/30 rounded-full" />
-              <div className="absolute bottom-20 left-4 w-1 h-12 bg-gradient-to-b from-indigo-500/30 via-purple-500/30 to-indigo-500/30 rounded-full" />
+              <div className="absolute top-1/2 right-4 w-1 h-16 bg-gradient-to-b from-yellow-500/30 via-amber-500/30 to-yellow-500/30 rounded-full" />
+              <div className="absolute bottom-20 left-4 w-1 h-12 bg-gradient-to-b from-amber-500/30 via-yellow-500/30 to-amber-500/30 rounded-full" />
             </motion.div>
           </>
         )}

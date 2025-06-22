@@ -12,8 +12,8 @@ const luxuryFlooringImages = [
     title: "Premium Staircase Installation",
     subtitle: "Professional Stair Carpeting",
     category: "Stairs",
-    color: "#8B5CF6",
-    gradient: "from-purple-500 to-indigo-600",
+    color: "#F59E0B",
+    gradient: "from-yellow-500 to-amber-600",
     description: "Transform your staircase with our premium carpeting featuring professional installation and superior comfort."
   },
   { 
@@ -22,8 +22,8 @@ const luxuryFlooringImages = [
     title: "Torros Laminate Flooring",
     subtitle: "Premium Wood Effect",
     category: "Laminate Flooring",
-    color: "#10B981",
-    gradient: "from-emerald-500 to-teal-600",
+    color: "#D97706",
+    gradient: "from-amber-500 to-orange-600",
     description: "Experience professional laminate flooring with premium Torros color and precision installation."
   },
   { 
@@ -32,8 +32,8 @@ const luxuryFlooringImages = [
     title: "Herringbone Pattern Vinyl",
     subtitle: "Contemporary Design",
     category: "Vinyl Flooring",
-    color: "#F59E0B",
-    gradient: "from-amber-500 to-orange-600",
+    color: "#FBBF24",
+    gradient: "from-yellow-400 to-amber-500",
     description: "Discover our stunning herringbone vinyl patterns offering classic style and unmatched durability."
   },
   { 
@@ -42,8 +42,8 @@ const luxuryFlooringImages = [
     title: "Herringbone Pattern Vinyl Alternative",
     subtitle: "Contemporary Design",
     category: "Vinyl Flooring",
-    color: "#EF4444",
-    gradient: "from-red-500 to-pink-600",
+    color: "#F59E0B",
+    gradient: "from-amber-500 to-yellow-600",
     description: "Alternative herringbone vinyl pattern with premium quality and modern appeal."
   },
   { 
@@ -52,8 +52,8 @@ const luxuryFlooringImages = [
     title: "Premium Vinyl Flooring",
     subtitle: "Modern Design",
     category: "Vinyl Flooring",
-    color: "#3B82F6",
-    gradient: "from-blue-500 to-indigo-600",
+    color: "#D97706",
+    gradient: "from-orange-500 to-amber-600",
     description: "Premium vinyl flooring designed for ultimate comfort and contemporary style."
   },
   { 
@@ -62,8 +62,8 @@ const luxuryFlooringImages = [
     title: "Luxury Vinyl Collection",
     subtitle: "Premium Quality",
     category: "Vinyl Flooring",
-    color: "#7C3AED",
-    gradient: "from-violet-500 to-purple-600",
+    color: "#FBBF24",
+    gradient: "from-yellow-500 to-orange-600",
     description: "Luxury vinyl flooring combining elegant design with superior durability and modern appeal."
   },
   { 
@@ -72,8 +72,8 @@ const luxuryFlooringImages = [
     title: "Luxury Blue Carpet",
     subtitle: "Premium Comfort",
     category: "Carpets",
-    color: "#059669",
-    gradient: "from-emerald-600 to-green-600",
+    color: "#F59E0B",
+    gradient: "from-amber-600 to-yellow-600",
     description: "Transform your space with our luxury blue carpet offering ultimate comfort and elegant style."
   },
   { 
@@ -82,8 +82,8 @@ const luxuryFlooringImages = [
     title: "Luxury Ivory Carpet",
     subtitle: "Elegant Design",
     category: "Carpets",
-    color: "#DC2626",
-    gradient: "from-red-600 to-rose-600",
+    color: "#D97706",
+    gradient: "from-yellow-600 to-amber-600",
     description: "Premium ivory carpet that creates stunning, sophisticated statements in any space."
   },
   { 
@@ -92,7 +92,7 @@ const luxuryFlooringImages = [
     title: "Stain Free Englewood Beige",
     subtitle: "Advanced Protection",
     category: "Carpets",
-    color: "#F59E0B",
+    color: "#FBBF24",
     gradient: "from-amber-500 to-orange-600",
     description: "Advanced stain-free carpet in elegant Englewood Beige combining protection with luxury style."
   },
@@ -102,8 +102,8 @@ const luxuryFlooringImages = [
     title: "Soundproof Plush Walk Underlay",
     subtitle: "Premium Foundation",
     category: "Underlay",
-    color: "#8B5CF6",
-    gradient: "from-purple-500 to-indigo-600",
+    color: "#F59E0B",
+    gradient: "from-yellow-500 to-amber-600",
     description: "Professional soundproof underlay providing superior comfort and noise reduction for any flooring."
   }
 ];
@@ -482,9 +482,9 @@ const MobileOptimized3DCarousel = ({ images }: { images: typeof luxuryFlooringIm
           repeat: Infinity, 
           ease: "easeInOut" 
         }}
-        className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-lg sm:rounded-xl backdrop-blur-xl border border-purple-500/30 flex items-center justify-center shadow-2xl"
+        className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-br from-yellow-500/20 to-amber-500/20 rounded-lg sm:rounded-xl backdrop-blur-xl border border-yellow-500/30 flex items-center justify-center shadow-2xl"
       >
-        <Sparkles className="w-4 h-4 sm:w-6 sm:h-6 text-purple-400" />
+        <Sparkles className="w-4 h-4 sm:w-6 sm:h-6 text-yellow-400" />
       </motion.div>
       
       <motion.div
@@ -499,9 +499,9 @@ const MobileOptimized3DCarousel = ({ images }: { images: typeof luxuryFlooringIm
           ease: "easeInOut",
           delay: 2
         }}
-        className="absolute -bottom-3 sm:-bottom-4 -left-3 sm:-left-4 w-7 h-7 sm:w-10 sm:h-10 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-md sm:rounded-lg backdrop-blur-xl border border-indigo-500/30 flex items-center justify-center shadow-2xl"
+        className="absolute -bottom-3 sm:-bottom-4 -left-3 sm:-left-4 w-7 h-7 sm:w-10 sm:h-10 bg-gradient-to-br from-amber-500/20 to-yellow-500/20 rounded-md sm:rounded-lg backdrop-blur-xl border border-amber-500/30 flex items-center justify-center shadow-2xl"
       >
-        <Star className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-indigo-400" fill="currentColor" />
+        <Star className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-amber-400" fill="currentColor" />
       </motion.div>
       
       <motion.div
@@ -516,9 +516,9 @@ const MobileOptimized3DCarousel = ({ images }: { images: typeof luxuryFlooringIm
           ease: "easeInOut",
           delay: 1
         }}
-        className="absolute top-1/2 -left-4 sm:-left-6 w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-md sm:rounded-lg backdrop-blur-xl border border-emerald-500/30 flex items-center justify-center shadow-2xl"
+        className="absolute top-1/2 -left-4 sm:-left-6 w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-orange-500/20 to-yellow-500/20 rounded-md sm:rounded-lg backdrop-blur-xl border border-orange-500/30 flex items-center justify-center shadow-2xl"
       >
-        <Award className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400" />
+        <Award className="w-3 h-3 sm:w-4 sm:h-4 text-orange-400" />
       </motion.div>
     </div>
   );
@@ -568,12 +568,12 @@ const Hero = () => {
         style={{ y: backgroundY }}
         className="absolute inset-0 z-0"
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-purple-900" />
-        <div className="absolute inset-0 bg-gradient-to-tr from-indigo-900/20 via-transparent to-purple-900/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-yellow-900" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-amber-900/20 via-transparent to-yellow-900/20" />
         
         {/* Simplified animated elements */}
-        <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-r from-purple-500/5 to-indigo-500/5 rounded-full blur-2xl sm:blur-3xl animate-pulse" />
-        <div className="absolute bottom-1/4 right-1/4 w-56 sm:w-80 h-56 sm:h-80 bg-gradient-to-r from-indigo-500/5 to-purple-500/5 rounded-full blur-2xl sm:blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-r from-yellow-500/5 to-amber-500/5 rounded-full blur-2xl sm:blur-3xl animate-pulse" />
+        <div className="absolute bottom-1/4 right-1/4 w-56 sm:w-80 h-56 sm:h-80 bg-gradient-to-r from-amber-500/5 to-yellow-500/5 rounded-full blur-2xl sm:blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
       </motion.div>
 
       {/* Main Content */}
@@ -590,26 +590,26 @@ const Hero = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.2 }}
-                className="inline-flex items-center space-x-2 sm:space-x-3 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 backdrop-blur-xl border border-purple-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-white/90 shadow-2xl"
+                className="inline-flex items-center space-x-2 sm:space-x-3 bg-gradient-to-r from-yellow-500/20 to-amber-500/20 backdrop-blur-xl border border-yellow-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-white/90 shadow-2xl"
               >
                 <Star className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" fill="currentColor" />
                 <span className="font-semibold text-sm sm:text-base">16+ Years of Excellence</span>
-                <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-purple-400" />
+                <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-400" />
               </motion.div>
 
               {/* Main Headline - MOBILE RESPONSIVE */}
               <div className="space-y-4 sm:space-y-6">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
                   <motion.span 
-                    className="block bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-500 bg-clip-text text-transparent"
+                    className="block bg-gradient-to-r from-yellow-400 via-amber-400 to-orange-500 bg-clip-text text-transparent"
                     animate={{
                       backgroundImage: [
-                        'linear-gradient(45deg, #a855f7, #ec4899, #6366f1)',
-                        'linear-gradient(45deg, #10b981, #06b6d4, #8b5cf6)',
-                        'linear-gradient(45deg, #f59e0b, #ef4444, #ec4899)',
-                        'linear-gradient(45deg, #3b82f6, #8b5cf6, #10b981)',
-                        'linear-gradient(45deg, #ef4444, #f59e0b, #3b82f6)',
-                        'linear-gradient(45deg, #a855f7, #ec4899, #6366f1)'
+                        'linear-gradient(45deg, #FBBF24, #F59E0B, #D97706)',
+                        'linear-gradient(45deg, #F59E0B, #FBBF24, #D97706)',
+                        'linear-gradient(45deg, #D97706, #F59E0B, #FBBF24)',
+                        'linear-gradient(45deg, #FBBF24, #D97706, #F59E0B)',
+                        'linear-gradient(45deg, #F59E0B, #D97706, #FBBF24)',
+                        'linear-gradient(45deg, #FBBF24, #F59E0B, #D97706)'
                       ]
                     }}
                     transition={{
@@ -623,11 +623,11 @@ const Hero = () => {
                   <span className="block text-white mt-1 sm:mt-2">& Flooring</span>
                 </h1>
                 
-                <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full mx-auto xl:mx-0" />
+                <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-full mx-auto xl:mx-0" />
                 
                 <div className="space-y-3 sm:space-y-4">
                   <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed max-w-2xl mx-auto xl:mx-0">
-                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-300">
+                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-300">
                       Luxury Flooring Redefined.
                     </span>
                   </p>
@@ -644,7 +644,7 @@ const Hero = () => {
                   transition={{ duration: 0.2 }}
                   className="flex items-center space-x-3 sm:space-x-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl sm:rounded-2xl p-3 sm:p-4 hover:bg-white/10 transition-colors duration-300"
                 >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg">
                     <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
@@ -658,7 +658,7 @@ const Hero = () => {
                   transition={{ duration: 0.2 }}
                   className="flex items-center space-x-3 sm:space-x-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl sm:rounded-2xl p-3 sm:p-4 hover:bg-white/10 transition-colors duration-300"
                 >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-amber-500 to-yellow-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg">
                     <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <div>
@@ -675,9 +675,9 @@ const Hero = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   transition={{ duration: 0.2 }}
-                  className="group relative bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 flex items-center justify-center space-x-2 sm:space-x-3 overflow-hidden"
+                  className="group relative bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg shadow-2xl hover:shadow-yellow-500/25 transition-all duration-300 flex items-center justify-center space-x-2 sm:space-x-3 overflow-hidden"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 relative z-10" />
                   <span className="relative z-10">Get Free Quote</span>
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 relative z-10" />
@@ -688,7 +688,7 @@ const Hero = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   transition={{ duration: 0.2 }}
-                  className="border-2 border-white/20 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg hover:border-purple-400 hover:bg-purple-500/10 transition-all duration-300 backdrop-blur-xl"
+                  className="border-2 border-white/20 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold text-base sm:text-lg hover:border-yellow-400 hover:bg-yellow-500/10 transition-all duration-300 backdrop-blur-xl"
                 >
                   View Portfolio
                 </motion.button>
