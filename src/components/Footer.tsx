@@ -10,12 +10,12 @@ const Footer = () => {
           <div className="flex flex-col h-full">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 flex-1 flex flex-col">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
-                  <div className="w-8 h-8 bg-gradient-to-br from-purple-800 to-indigo-900 rounded-lg"></div>
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-8 h-8 bg-gradient-to-br from-yellow-800 to-amber-900 rounded-lg"></div>
                 </div>
                 <div>
                   <span className="text-white font-bold text-xl">SYN Carpets</span>
-                  <p className="text-purple-300 text-sm">Luxury Redefined</p>
+                  <p className="text-yellow-300 text-sm">Luxury Redefined</p>
                 </div>
               </div>
               
@@ -27,11 +27,11 @@ const Footer = () => {
               {/* Trust Badges */}
               <div className="grid grid-cols-3 gap-3 mb-6">
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-3 text-center">
-                  <Award className="w-5 h-5 text-purple-400 mx-auto mb-1" />
+                  <Award className="w-5 h-5 text-yellow-400 mx-auto mb-1" />
                   <p className="text-white text-xs font-semibold">16+ Years</p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-3 text-center">
-                  <Shield className="w-5 h-5 text-indigo-400 mx-auto mb-1" />
+                  <Shield className="w-5 h-5 text-amber-400 mx-auto mb-1" />
                   <p className="text-white text-xs font-semibold">Insured</p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-3 text-center">
@@ -54,39 +54,39 @@ const Footer = () => {
           <div className="flex flex-col h-full">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 flex-1 flex flex-col">
               <h3 className="text-white font-bold text-xl mb-6 flex items-center space-x-2">
-                <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                 <span>Our Services</span>
               </h3>
               
               <ul className="space-y-4 text-white/70 flex-1">
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-full"></div>
                   <span>Premium Carpet Installation</span>
                 </li>
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full"></div>
                   <span>Durable Laminate Flooring</span>
                 </li>
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full"></div>
                   <span>Stylish Lino Flooring</span>
                 </li>
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-amber-500 to-yellow-600 rounded-full"></div>
                   <span>Door-to-Door Service</span>
                 </li>
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-orange-500 to-yellow-600 rounded-full"></div>
                   <span>Free Consultation</span>
                 </li>
-                <li className="hover:text-purple-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
-                  <div className="w-2 h-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full"></div>
+                <li className="hover:text-yellow-400 transition-colors cursor-pointer flex items-center space-x-3 p-2 rounded-lg hover:bg-white/5">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-600 to-amber-600 rounded-full"></div>
                   <span>Professional Installation</span>
                 </li>
               </ul>
 
               <div className="mt-6 pt-6 border-t border-white/10">
-                <div className="flex items-center space-x-2 text-purple-300">
+                <div className="flex items-center space-x-2 text-yellow-300">
                   <Star className="w-4 h-4 text-yellow-400" fill="currentColor" />
                   <span className="text-sm font-medium">All Services Include Quality Guarantee</span>
                 </div>
@@ -98,7 +98,7 @@ const Footer = () => {
           <div className="flex flex-col h-full">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 flex-1 flex flex-col">
               <h3 className="text-white font-bold text-xl mb-6 flex items-center space-x-2">
-                <div className="w-2 h-2 bg-indigo-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
                 <span>Contact Information</span>
               </h3>
               
@@ -109,14 +109,14 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">WhatsApp</p>
-                    <a href="http://wa.me/+447949087460" className="text-purple-400 hover:text-purple-300 transition-colors font-medium">
+                    <a href="http://wa.me/+447949087460" className="text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
                       07949 087460
                     </a>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4 p-3 rounded-lg hover:bg-white/5 transition-colors">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -127,7 +127,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4 p-3 rounded-lg hover:bg-white/5 transition-colors">
-                  <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-yellow-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -139,7 +139,7 @@ const Footer = () => {
 
               <div className="mt-6 pt-6 border-t border-white/10">
                 <div className="text-center">
-                  <p className="text-purple-300 text-sm font-medium">Ready to Transform Your Space?</p>
+                  <p className="text-yellow-300 text-sm font-medium">Ready to Transform Your Space?</p>
                   <p className="text-white/60 text-xs mt-1">Free consultation available</p>
                 </div>
               </div>
@@ -151,9 +151,9 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Developer Credit */}
-            <div className="bg-gradient-to-r from-purple-500/10 to-indigo-500/10 backdrop-blur-sm border border-purple-500/20 rounded-2xl p-6">
+            <div className="bg-gradient-to-r from-yellow-500/10 to-amber-500/10 backdrop-blur-sm border border-yellow-500/20 rounded-2xl p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-14 h-14 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="w-14 h-14 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
                   <Code className="w-7 h-7 text-white" />
                 </div>
                 <div className="flex-1">
@@ -162,19 +162,19 @@ const Footer = () => {
                     Professionally designed and developed with modern web technologies
                   </p>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
-                    <span className="text-purple-300 text-sm font-medium">Crafted by Umar Hashmi</span>
+                    <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
+                    <span className="text-yellow-300 text-sm font-medium">Crafted by Umar Hashmi</span>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Portfolio Link - MOBILE OPTIMIZED */}
-            <div className="bg-gradient-to-r from-indigo-500/10 to-purple-500/10 backdrop-blur-sm border border-indigo-500/20 rounded-2xl p-6">
+            <div className="bg-gradient-to-r from-amber-500/10 to-yellow-500/10 backdrop-blur-sm border border-amber-500/20 rounded-2xl p-6">
               {/* MOBILE LAYOUT - STACKED VERTICALLY */}
               <div className="flex flex-col space-y-4 lg:hidden">
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-14 h-14 bg-gradient-to-r from-amber-500 to-yellow-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Palette className="w-7 h-7 text-white" />
                   </div>
                   <div className="flex-1">
@@ -188,7 +188,7 @@ const Footer = () => {
                   href="https://umarhashmi.dev" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-400 hover:to-indigo-500 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"
+                  className="w-full bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-yellow-400 hover:to-amber-500 transition-all transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"
                 >
                   <Globe className="w-5 h-5" />
                   <span>Visit Portfolio</span>
@@ -199,7 +199,7 @@ const Footer = () => {
               {/* DESKTOP LAYOUT - SIDE BY SIDE */}
               <div className="hidden lg:flex items-center justify-between">
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-14 h-14 bg-gradient-to-r from-amber-500 to-yellow-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Palette className="w-7 h-7 text-white" />
                   </div>
                   <div>
@@ -213,7 +213,7 @@ const Footer = () => {
                   href="https://umarhashmi.dev" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="group bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-400 hover:to-indigo-500 transition-all transform hover:scale-105 flex items-center space-x-2 shadow-lg"
+                  className="group bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-yellow-400 hover:to-amber-500 transition-all transform hover:scale-105 flex items-center space-x-2 shadow-lg"
                 >
                   <Globe className="w-5 h-5" />
                   <span>Visit Portfolio</span>
@@ -229,8 +229,8 @@ const Footer = () => {
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-indigo-600 rounded-lg flex items-center justify-center">
-                  <div className="w-5 h-5 bg-gradient-to-br from-purple-800 to-indigo-900 rounded"></div>
+                <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-lg flex items-center justify-center">
+                  <div className="w-5 h-5 bg-gradient-to-br from-yellow-800 to-amber-900 rounded"></div>
                 </div>
                 <div>
                   <p className="text-white/80 font-medium">
@@ -252,7 +252,7 @@ const Footer = () => {
                   <span className="text-white/70 text-sm">Fully Insured</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Award className="w-4 h-4 text-purple-400" />
+                  <Award className="w-4 h-4 text-yellow-400" />
                   <span className="text-white/70 text-sm">16+ Years</span>
                 </div>
               </div>
